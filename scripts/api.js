@@ -1,5 +1,5 @@
 const api = (function() {
-    const BASE_URL = ('https://thinkful-list-api.herokuapp.com/jjammess');
+    const BASE_URL = ('https://thinkful-list-api.herokuapp.com/jjammess');\
 
     function getItems() {
         return fetch(`${BASE_URL}/items`);
